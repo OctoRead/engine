@@ -1,6 +1,3 @@
-/// octoread_engine
-///
-/// A Aqueduct web server.
 library octoread_engine;
 
 export 'dart:async';
