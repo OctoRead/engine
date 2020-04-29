@@ -1,8 +1,11 @@
 import 'Enums/PostStatus.dart';
+import 'Post.dart';
 
-class Post {
+class PostRevision {
   String id;
-  
+  Post post;
+  PostRevision previousRevision;
+
   String title;
   String body = '';
   String shortDescription = '';

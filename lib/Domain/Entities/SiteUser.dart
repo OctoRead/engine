@@ -1,10 +1,11 @@
 import 'Enums/SiteUserRole.dart';
 import 'Enums/SiteUserStatus.dart';
+import 'Site.dart';
+import 'User.dart';
 
 class SiteUser {
-  String id;
-  String siteId;
-  String userId;
+  Site site;
+  User user;
 
   List<SiteUserRole> roles = [];
 

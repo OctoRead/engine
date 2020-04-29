@@ -1,8 +1,9 @@
 import 'Enums/UserCredentialStatus.dart';
+import 'User.dart';
 
 class UserCredential {
   String id;
-  String userId;
+  User user;
 
   String account;
   String password;

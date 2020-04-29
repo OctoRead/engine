@@ -1,4 +1,4 @@
-enum UserStatus {
+enum CategoryStatus {
   DELETED,
   ACTIVE,
   DISABLED,

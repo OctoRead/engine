@@ -1,4 +1,4 @@
-enum UserStatus {
+enum SiteMenuEntryStatus {
   DELETED,
   ACTIVE,
   DISABLED,
