@@ -2,7 +2,6 @@
 .pub/
 build/
 packages
-.packages
 *.dart.js
 *.js_
 *.js.deps
@@ -12,3 +11,6 @@ Dart_Packages.xml
 .DS_Store
 .idea/
 *.aqueduct.pid
+.dart_tool
+.packages
+pubspec.lock
