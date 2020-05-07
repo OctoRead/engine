@@ -1,3 +1,5 @@
 # octoread_engine
 
-Package for Application, Domain, Infrastructure layer elements.
+#### OctoRead Engine (core components)
+
+Package for Application core, Domain, Infrastructure layer elements.
