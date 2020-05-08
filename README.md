@@ -2,4 +2,4 @@
 
 #### OctoRead Engine (core components)
 
-Package for Application core, Domain, Infrastructure layer elements.
+Package for Application core, Domain, Infrastructure layer elements, common used Utils.
