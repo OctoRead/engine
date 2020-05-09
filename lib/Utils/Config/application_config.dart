@@ -10,5 +10,5 @@ class ApplicationConfig extends Configuration {
   ListenersConfiguration listeners;
 
   @optionalConfiguration
-  DatabaseConfiguration database;
+  Map<String, DatabaseConfiguration> databases;
 }
