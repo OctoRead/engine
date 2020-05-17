@@ -1,8 +1,10 @@
 enum SiteStatus {
-  DELETED,                // deleted by owner, or privileged user
-  ACTIVE,                 // site is active and running
-  APPROVED,               // site is approved by privileged user, owner may activate it
-  PENDING_FOR_APPROVAL,   // pending for approval by privileged user
-  CLOSED,                 // owner decides to close site
-  CLOSED_FOR_MAINTENANCE  // owner decides to close site temporarily to do maintenance
+  deleted,                // deleted by owner, or privileged User
+  active,                 // Site is active and running
+  scheduledToActivate,    // owner decides to activate (open) the Site in future
+  approved,               // Site is approved by privileged User, waiting for activation by owner
+  pendingForApproval,     // pending for approval by the privileged User
+  scheduledToClose,       // owner decides to close the Site in future
+  closed,                 // owner decides to close the Site (for unknown period)
+  closedForMaintenance,   // owner decides to close the Site temporarily to do maintenance
 }

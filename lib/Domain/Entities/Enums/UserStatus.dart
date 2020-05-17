@@ -1,6 +1,6 @@
 enum UserStatus {
-  DELETED,
-  ACTIVE,
-  DISABLED,
-  NONE
+  deleted,
+  active,
+  disabled,
+  none
 }

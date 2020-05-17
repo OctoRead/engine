@@ -1,8 +1,9 @@
 enum SiteMenuEntryType {
-  FOLDER,
-  LINK,
-  REFERENCE_TO_CATEGORY,
-  REFERENCE_TO_POST,
-  REFERENCE_TO_TAG,
-  REFERENCE_TO_AUTHOR
+  none,                   // item with empty functionality
+  folder,                 // item with nested elements
+  link,                   // url link (anchor, relative or direct full url)
+  referenceToCategory,    // model: Category
+  referenceToPost,        // model: Post
+  referenceToTag,         // model: Tag
+  referenceToAuthor,      // model: Author
 }

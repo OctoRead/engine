@@ -1,6 +1,6 @@
 enum CategoryStatus {
-  DELETED,
-  ACTIVE,
-  DISABLED,
-  NONE
+  deleted,
+  active,
+  disabled,
+  none,
 }

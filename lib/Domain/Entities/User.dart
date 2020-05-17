@@ -5,7 +5,9 @@ class User {
 
   String firstName;
   String lastName;
-  String nickName;
 
-  UserStatus status = UserStatus.NONE;
+  String nickName;
+  String password;
+
+  UserStatus status = UserStatus.none;
 }

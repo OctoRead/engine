@@ -1,3 +1,3 @@
 enum SiteUserParamType {
-  IS_ANONYMOUS
+  isAnonymous,
 }

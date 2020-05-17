@@ -6,5 +6,5 @@ class Site {
   String name;
   String hostname;
 
-  SiteStatus status = SiteStatus.PENDING_FOR_APPROVAL;
+  SiteStatus status = SiteStatus.pendingForApproval;
 }

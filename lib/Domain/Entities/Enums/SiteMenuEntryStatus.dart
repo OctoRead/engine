@@ -1,6 +1,6 @@
 enum SiteMenuEntryStatus {
-  DELETED,
-  ACTIVE,
-  DISABLED,
-  NONE
+  deleted,
+  active,
+  disabled,
+  none,
 }

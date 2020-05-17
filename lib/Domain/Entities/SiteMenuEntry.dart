@@ -10,9 +10,12 @@ class SiteMenuEntry {
   Site site;
   SiteMenu siteMenu;
 
-  SiteMenuEntryType type = SiteMenuEntryType.LINK;
+  SiteMenuEntryType type = SiteMenuEntryType.none;
 
   // <a href="${href}" title="${title}" ${attributes}>${text}</a>
+  // relative link: /about
+  // anchor: #title
+  // link with anchor: /about#ceo
   // direct link: https://google.com,
   // or reference: CATEGORY:$ID (which will be converted to real url)
   String href = '';
@@ -20,5 +23,5 @@ class SiteMenuEntry {
   String attributes = ''; // 'target="_blank" style="color:black"'
   String text;
 
-  SiteMenuEntryStatus status = SiteMenuEntryStatus.NONE;
+  SiteMenuEntryStatus status = SiteMenuEntryStatus.none;
 }

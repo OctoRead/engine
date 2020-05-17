@@ -1,6 +1,6 @@
 enum UserCredentialStatus {
-  DELETED,    // cred deleted
-  ACTIVE,     // cred active (in use)
-  DISABLED,   // cred disabled by owner
-  NONE        // cred not approved, waiting for approve and etc.
+  deleted,    // cred deleted
+  active,     // cred active (in use)
+  disabled,   // cred disabled by owner
+  none,       // cred not approved, waiting for approve and etc.
 }

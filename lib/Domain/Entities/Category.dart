@@ -7,5 +7,5 @@ class Category {
   String title;
   String description = '';
 
-  CategoryStatus status = CategoryStatus.NONE;
+  CategoryStatus status = CategoryStatus.none;
 }

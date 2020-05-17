@@ -8,7 +8,7 @@ class Post {
   String shortDescription = '';
   String description = '';
 
-  PostStatus status = PostStatus.DRAFT;
+  PostStatus status = PostStatus.draft;
 
   DateTime createdAt;
   DateTime updatedAt;

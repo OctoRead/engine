@@ -7,5 +7,5 @@ class SiteMenu {
 
   String name;
 
-  MenuStatus status = MenuStatus.NONE;
+  MenuStatus status = MenuStatus.none;
 }

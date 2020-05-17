@@ -9,5 +9,5 @@ class SiteUser {
 
   List<SiteUserRole> roles = [];
 
-  SiteUserStatus status = SiteUserStatus.NONE;
+  SiteUserStatus status = SiteUserStatus.none;
 }

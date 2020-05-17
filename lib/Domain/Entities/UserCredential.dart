@@ -5,8 +5,8 @@ class UserCredential {
   String id;
   User user;
 
-  String account;
-  String password;
+  String account;       // account unique id, login, email in third party vendor's db
+  String token;         // account access token (session id) in third party vendor's site
 
-  UserCredentialStatus status = UserCredentialStatus.NONE;
+  UserCredentialStatus status = UserCredentialStatus.none;
 }
