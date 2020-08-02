@@ -6,7 +6,7 @@ class User {
   String firstName;
   String lastName;
 
-  String nickName;
+  String username;
   String password;
 
   UserStatus status = UserStatus.none;
